@@ -124,3 +124,31 @@ text-shadow:0 0 7px #fff,
     opacity: 1;
 
 }
+ @media screen and (max-width: 480px)
+ {
+.body{
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.clock span {
+width: 50px;
+height:20px;
+font-size: 40px;
+text-align: center;
+justify-content: center;
+padding-left: 25px;
+
+}
+.clock div {
+    margin: 5px;
+}
+.clock .text {
+    font-size: 10px;
+ }
+ #ampm
+{
+    font-size: 20px;
+    margin-top:50px;
+}
+}
